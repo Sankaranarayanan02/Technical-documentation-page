@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    
+</body>
+</html><nav id="navbar">
+    <header>C Programming Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      </li>
+      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li>
+        <a class="nav-link" href="#Rules_for_defining_variables">Rules for defining variables</a>
+      </li>
+      <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+      <li><a class="nav-link" href="#Constants">Constants</a></li>
+      <li><a class="nav-link" href="#Data_types">Data types</a></li>
+      <li>
+        <a class="nav-link" href="#if...else_statement">if...else statement</a>
+      </li>
+      <li><a class="nav-link" href="#while_statement">while statement</a></li>
+      <li>
+        <a class="nav-link" href="#Function_declarations"
+          >Function declarations</a
+        >
+      </li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+  <header class="link">
+   <ul>
+    <li><a href="about.html"target="_blank">About</a></li>
+    <li><a href="C++.html"target="_blank">C++ Programming</a></li>
+    <li ><a href="C.html"target="_blank">C-Programming</a></li>
+    <li><a href="javascript.html"target="_blank">JavaScript</a></li>
+</ul>
+
+</header>
+  <div class="top">
+  
+    <img src="moon.png" alt="logo" id="icon"><div class="container"><p>Dark Mode</p></div>
+    </div>
+    </div>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <img src="c.png" alt="javalogo" &gt>
+        <p>
+          C language Tutorial with programming approach for beginners and professionals, helps you to understand the C language tutorial easily. Our C tutorial explains each topic with programs.
+  <p>
+  The C Language is developed by Dennis Ritchie for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
+  </p>
+   <p>
+  C programming is considered as the base for other programming languages, that is why it is known as mother language.
+        </p>
+  
+        <p>
+          C language is considered as the mother language of all the modern programming languages because most of the compilers, JVMs, Kernels, etc. are written in C language, and most of the programming languages follow C syntax, for example, C++, Java, C#, etc.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Hello_world">
+      <header>Hello world</header>
+      <article>
+        Before starting the abcd of C language, you need to learn how to write, compile and run the first c program.
+        To write the first c program, open the C console and write the following code:
+        <code
+          >#include <stdio.h>    
+  int main(){    
+  printf("Hello C Language");    
+  return 0;   
+  }  
+        </code>
+      </article>
+    </section>
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>
+        A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be reused many times.
+  
+  It is a way to represent memory location through symbol so that it can be easily identified.
+      </p>
+      <p>
+        There are many types of variables in c:
+      </p>
+      <ul>
+  <li> local variable </li>
+  <li> global variable </li>
+  <li> static variable </li>
+  <li> automatic variable </li>
+  <li> external variable </li>
+        </ul>
+    </section>
+    <section class="main-section" id="Rules_for_defining_variables">
+      <header>Rules for defining variables</header>
+      <article>
+        <p>
+          Rules for defining variables are:
+        </p>
+         
+        <ol>
+  <li>A variable can have alphabets, digits, and underscore. </li>
+  <li> A variable name can start with the alphabet, and underscore only. It can't start with a digit. </li>
+  <li> No whitespace is allowed within the variable name. </li>
+  <li> A variable name must not be any reserved word or keyword, e.g. int, float, etc. </li>
+        </ol>
+      </article>
+    </section>
+    <section class="main-section" id="Global_variables">
+      <header>Global variables</header>
+      <article>
+        <p>
+          A variable that is declared outside the function or block is called a global variable. Any function can change the value of the global variable. It is available to all the functions.
+  
+  It must be declared at the start of the block.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Constants">
+      <header>Constants</header>
+      <article>
+        <p>
+          YA constant is a value or variable that can't be changed in the program, for example: 10, 20, 'a', 3.4, "c programming" etc.
+  
+  There are different types of constants in C programming.
+        </p>
+  
+        <code>const float PI=3.14;</code>
+      </article>
+    </section>
+    <section class="main-section" id="Data_types">
+      <header>Data types</header>
+      <article>
+        <p>A data type specifies the type of data that a variable can store such as integer, floating, character, etc.</p>
+        <ul>
+          <li>
+            <p>4 data types of data:</p>
+            <ul>
+              <li>Basic Data Type</li>
+              <li>Derived Data Type</li>
+              <li>Enumeration Data Type</li>
+              <li>Void Data Type</li>
+      </article>
+    </section>
+    <section class="main-section" id="if...else_statement">
+      <header>if...else statement</header>
+      <article>
+        The if-else statement is used to perform two operations for a single condition. The if-else statement is an extension to the if statement using which, we can perform two different operations, i.e., one is for the correctness of that condition, and the other is for the incorrectness of the condition. Here, we must notice that if and else block cannot be executed simiulteneously. Using if-else statement is always preferable since it always invokes an otherwise case with every if condition. The syntax of the if-else statement is given below:
+  
+        <code>if(expression){  
+  //code to be executed if condition is true  
+  }else{  
+  //code to be executed if condition is false  
+  } </code>
+      </article>
+    </section>
+    <section class="main-section" id="while_statement">
+      <header>while statement</header>
+      <article>
+        While loop is also known as a pre-tested loop. In general, a while loop allows a part of the code to be executed multiple times depending upon a given boolean condition. It can be viewed as a repeating if statement. The while loop is mostly used in the case where the number of iterations is not known in advance.The syntax of while loop in c language is given below:
+  
+        <code>while(condition){  
+  //code to be executed  
+  }  </code> 
+      </article>
+    </section>
+    <section class="main-section" id="Function_declarations">
+      <header>Function declarations</header>
+      <article>
+      A function must be declared globally in a c program to tell the compiler about the function name, function parameters, and return type.
+        <p>
+          The syntax of creating function in c language is given below:
+        </p>
+  
+        <code>return_type function_name(data_type parameter...){  
+  //code to be executed  
+  }  </code>
+      </article>
+    </section>
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <article>
+        <ul>
+          <li>
+            All the documentation in this page is taken from
+            <a
+              href="https://www.javatpoint.com/c-programming-language-tutorial"
+              target="_blank"
+              >Java Point</a
+            >
+          </li>
+        </ul>
+      </article>
+    </section>
+    <script>
+        var icon=document.getElementById("icon");
+          icon.onclick=function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme"))
+            {
+              icon.src="sun.jpg";
+            }else{
+              icon.src="moon.png";
+            }
+          }</script>
+  </main>
+</head>
+<body>
